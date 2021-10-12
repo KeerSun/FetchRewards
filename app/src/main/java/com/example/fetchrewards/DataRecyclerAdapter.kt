@@ -34,7 +34,6 @@ class DataRecyclerAdapter : RecyclerView.Adapter<DataRecyclerAdapter.ViewHolder>
 
      fun populate(dataList: List<dataModel>){
         items = dataList
-         Log.d("items", items.toString())
      }
 
      class ViewHolder constructor(
